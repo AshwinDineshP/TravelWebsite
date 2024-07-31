@@ -1,0 +1,224 @@
+#navigation{
+    margin-top: -15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#navbarNav{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+#where-to{
+    display: flex;
+    text-align: center;
+    position: relative;
+    height: 150px;
+
+}
+.where-to-item h2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 49px;
+    left: 43%;
+    top: 10%;
+}
+.where-to-item ul{
+    display: flex;
+    
+    list-style-type: none;
+    position: relative;
+    top: 80%;
+    left: 35%;
+  
+
+}
+.where-to-item-ul li{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+.where-to-item-ul li:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: .40s;
+}
+
+
+.search-container {
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+
+}
+.search-container .search-input{
+    border: none;
+    border-radius: 40px;
+    font-size: 17px;
+}   
+.search-container .btn{
+    position: relative;
+    background-color: rgb(52, 224, 161);
+    color: rgb(0, 0, 0);
+    height: 53px;
+    border-radius: 35px;
+    width: 99px;
+    font-weight: 500;
+    font-size: 17px;
+    right: 3px;
+    
+} 
+#ai{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%; 
+    position: relative;
+    background-color: rgb(217, 210, 252);
+    width: 100;
+    height: 464px;
+    background-image: url(./images/home-gai-entry-dv.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.ai-items{
+    padding-right: 50%;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    font-weight: 800;
+    
+}
+
+.ai-items h2{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb();
+}
+.ai-items button{
+    font-size: 12px;
+    font-weight: 700;
+}
+#cards-1{
+    align-items: center;
+    text-align: left;
+    height: 360px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#cards-1 h3{
+    font-weight: 700;
+}
+.colum{
+    position: relative;
+}
+.colum:hover{
+    transform: scale(1.05);
+    transition: transform.2s;
+}
+.colum h5{
+    text-align: left;
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    padding-right: 10%;
+    /* need to put text shadow */
+    text-shadow: 3px 2px black;
+    font-size: 24px;
+    font-weight: 700;
+}
+#cards-2{
+    height: 490px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.cards2-colum:hover{
+    transform: scale(1.05);
+    transition: transform.2s;
+}
+#cards-2 h3{
+    font-weight: 700;
+}
+#cards-2-row{
+    font-weight: 700;
+    justify-content: left;
+    text-align: left;
+}
+
+#more-explore{
+    height: 455px;
+    padding-left: 7%;
+    padding-right: 0%;
+    background-color: rgb(250, 241, 237);
+}
+#more-explore h3,p{
+    font-weight: 750;
+}
+#more-explore p{
+    text-align: center;
+}
+.explore-colum:hover{
+    transform: scale(1.05);
+    transition: transform.2s;
+
+}
+#awards{
+    position: relative;
+    height: 600px;
+    padding-left: 13%;
+    padding-right: 13%;
+    background-color: rgb(255, 247, 225) ;
+}
+.awards-colum1{
+    padding-top: 8%;
+}
+.awards-colum1 button:hover{
+    transform: scale(1.10);
+    transition: .25s;
+    
+
+}
+.awards-colum1 h2{
+    font-size: 47px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: black;
+}
+#awards p{
+    font-weight: 650;
+    font-size: 22px;
+}
+
+#awards .main-img{
+    height: auto;
+}
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    height: 420px;
+    background-color: rgb(255, 247, 225);
+}
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    text-decoration: none;
+}
